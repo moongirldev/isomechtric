@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://doc28bnrudrc5"]
+
+[ext_resource type="Theme" uid="uid://cnjtetudthuan" path="res://addons/windows_95_theme/save1.tres" id="1_ljc32"]
+[ext_resource type="Script" path="res://Scenes/BattleManager.gd" id="2_2g1hk"]
+[ext_resource type="Texture2D" uid="uid://ddbnwfl21stby" path="res://DevAssets/evil.png" id="3_1ojjy"]
+
+[node name="BattleControl" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_ljc32")
+script = ExtResource("2_2g1hk")
+
+[node name="Action Selection" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 680.0
+offset_top = 272.0
+offset_right = 1168.0
+offset_bottom = 776.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Action Selection"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Action Selection/VBoxContainer"]
+custom_minimum_size = Vector2(2.08165e-12, 75)
+layout_mode = 2
+text = "Test Button"
+icon = ExtResource("3_1ojjy")
+expand_icon = true
+
+[node name="Move Selection" type="PanelContainer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 680.0
+offset_top = 272.0
+offset_right = 1168.0
+offset_bottom = 776.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Move Selection"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Move Selection/VBoxContainer"]
+layout_mode = 2
+text = "Test Button 2
+"
+icon = ExtResource("3_1ojjy")
+expand_icon = true
+
+[node name="Button2" type="Button" parent="Move Selection/VBoxContainer"]
+layout_mode = 2
+text = "Test Button 2
+"
+icon = ExtResource("3_1ojjy")
+expand_icon = true
+
+[node name="Button3" type="Button" parent="Move Selection/VBoxContainer"]
+layout_mode = 2
+text = "Test Button 2
+"
+icon = ExtResource("3_1ojjy")
+expand_icon = true

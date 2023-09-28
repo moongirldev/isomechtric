@@ -1,0 +1,26 @@
+[remap]
+
+importer="2d_array_texture"
+type="CompressedTexture2DArray"
+uid="uid://5patefw047r6"
+path="res://.godot/imported/UIpackSheet_transparent.png-2bceb1644d867297640414b0bf5e38dc.ctexarray"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://DevAssets/UIpackSheet_transparent.png"
+dest_files=["res://.godot/imported/UIpackSheet_transparent.png-2bceb1644d867297640414b0bf5e38dc.ctexarray"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=30
+slices/vertical=32
